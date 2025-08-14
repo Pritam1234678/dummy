@@ -17,7 +17,7 @@ export default function App() {
     setStatus("Sending...");
 
     const scriptURL =
-      "https://script.google.com/macros/s/AKfycbwQmO9DrVzoNklhnzZQxjL6xErYlWTKDy0hJ9rtT1dduvzUc4xUJdwkIvNnZ3QGA4SWcQ/exec";
+      "https://script.google.com/macros/s/AKfycbw7tJsezE4AIhcfdV6i8ZcWg0WHhmC2IBNewDDDwNM3o1Y12kBm8kic9Z6848ptWZ2Ugg/exec";
 
     const url = `${scriptURL}?name=${encodeURIComponent(
       formData.name
